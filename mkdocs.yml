@@ -1,0 +1,19 @@
+site_name: Your Site Name
+site_url: https://gegause.github.io/MkdocsExamplemk/
+
+docs_dir: knowledge
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+  - codehilite
