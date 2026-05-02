@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://gegause.github.io/MkdocsExamplemk/</loc>
+         <lastmod>2026-05-02</lastmod>
+    </url>
+    <url>
+         <loc>https://gegause.github.io/MkdocsExamplemk/Mkdocs-Example/01-setup/</loc>
+         <lastmod>2026-05-02</lastmod>
+    </url>
+    <url>
+         <loc>https://gegause.github.io/MkdocsExamplemk/Mkdocs-Example/02-configuration/</loc>
+         <lastmod>2026-05-02</lastmod>
+    </url>
+    <url>
+         <loc>https://gegause.github.io/MkdocsExamplemk/Mkdocs-Example/03-deployment/</loc>
+         <lastmod>2026-05-02</lastmod>
+    </url>
+    <url>
+         <loc>https://gegause.github.io/MkdocsExamplemk/Mkdocs-Example/04-testing/</loc>
+         <lastmod>2026-05-02</lastmod>
+    </url>
+    <url>
+         <loc>https://gegause.github.io/MkdocsExamplemk/Mkdocs-Example/05-troubleshooting/</loc>
+         <lastmod>2026-05-02</lastmod>
+    </url>
+    <url>
+         <loc>https://gegause.github.io/MkdocsExamplemk/topic2/file/</loc>
+         <lastmod>2026-05-02</lastmod>
+    </url>
+</urlset>
