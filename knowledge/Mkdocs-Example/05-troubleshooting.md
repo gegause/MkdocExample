@@ -1,39 +1,54 @@
-
----
-
-# 📄 `knowledge/05-troubleshooting.md`
-
-```markdown
 # 5. Troubleshooting
 
-Common issues and how to fix them.
+This document lists common MkDocs and GitHub Pages issues and how to resolve them.
 
 ---
 
-## ❌ Issue: GitHub Pages shows a 404
+## Issue: GitHub Pages shows a 404
 
-### ✔ Fix
-- Ensure the `gh-pages` branch exists
-- Ensure GitHub Pages is configured to use `gh-pages`
+Fix:
+- Ensure the gh-pages branch exists
+- Ensure GitHub Pages is configured to use gh-pages
 - Wait 1–3 minutes for GitHub Pages to build
 
 ---
 
-## ❌ Issue: Navigation is missing
+## Issue: Navigation is missing
 
-### ✔ Fix
-If using `awesome-pages`:
-
-- Ensure the plugin is listed in `mkdocs.yml`
-- Ensure your Markdown files have valid filenames
-- Ensure there are no empty directories
+Fix:
+- Ensure awesome-pages is listed in mkdocs.yml
+- Ensure filenames are valid
+- Ensure no empty directories exist
 
 ---
 
-## ❌ Issue: Local build works, GitHub Pages does not
+## Issue: Local build works, GitHub Pages does not
 
-### ✔ Fix
-Check:
+Fix:
+Check that mkdocs.yml contains:
 
-```yaml
 docs_dir: knowledge
+
+If GitHub Pages cannot find your docs, it will render a blank site.
+
+---
+
+## Issue: mkdocs gh-deploy fails
+
+Fix:
+Install required packages:
+
+pip install mkdocs  
+pip install mkdocs-material  
+pip install mkdocs-awesome-pages-plugin
+
+Then try again.
+
+---
+
+## Issue: GitHub Actions workflow fails
+
+Fix:
+Ensure your workflow installs all required plugins:
+
+pip install mkdocs-material mkdocs-awesome-pages-plugin
